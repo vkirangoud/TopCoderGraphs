@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B322274518F04F1D0009FB5D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B322274418F04F1D0009FB5D /* main.cpp */; };
+		B322274518F04F1D0009FB5D /* grafixmask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B322274418F04F1D0009FB5D /* grafixmask.cpp */; };
 		B322274718F04F1D0009FB5D /* TopCoderGraphs.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B322274618F04F1D0009FB5D /* TopCoderGraphs.1 */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +26,7 @@
 
 /* Begin PBXFileReference section */
 		B322274118F04F1D0009FB5D /* TopCoderGraphs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TopCoderGraphs; sourceTree = BUILT_PRODUCTS_DIR; };
-		B322274418F04F1D0009FB5D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B322274418F04F1D0009FB5D /* grafixmask.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = grafixmask.cpp; sourceTree = "<group>"; };
 		B322274618F04F1D0009FB5D /* TopCoderGraphs.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TopCoderGraphs.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,7 +60,7 @@
 		B322274318F04F1D0009FB5D /* TopCoderGraphs */ = {
 			isa = PBXGroup;
 			children = (
-				B322274418F04F1D0009FB5D /* main.cpp */,
+				B322274418F04F1D0009FB5D /* grafixmask.cpp */,
 				B322274618F04F1D0009FB5D /* TopCoderGraphs.1 */,
 			);
 			path = TopCoderGraphs;
@@ -117,7 +117,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B322274518F04F1D0009FB5D /* main.cpp in Sources */,
+				B322274518F04F1D0009FB5D /* grafixmask.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
