@@ -118,7 +118,7 @@ void readInput(vector<string>& compete)
     }
 }
 
-int main(int argc, const char * argv[])
+int main(int argc, const char* argv[])
 {
     vector<string> compete;
     

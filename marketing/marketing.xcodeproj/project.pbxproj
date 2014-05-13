@@ -7,42 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B322274518F04F1D0009FB5D /* grafixmask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B322274418F04F1D0009FB5D /* grafixmask.cpp */; };
-		B322274718F04F1D0009FB5D /* TopCoderGraphs.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B322274618F04F1D0009FB5D /* TopCoderGraphs.1 */; };
+		B322275A18F0505A0009FB5D /* marketing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B322275918F0505A0009FB5D /* marketing.cpp */; };
+		B322275C18F0505A0009FB5D /* marketing.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B322275B18F0505A0009FB5D /* marketing.1 */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		B322276618F0505B0009FB5D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B322276218F0505A0009FB5D /* marketing.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = B322275618F0505A0009FB5D;
-			remoteInfo = marketing;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
-		B322273F18F04F1D0009FB5D /* CopyFiles */ = {
+		B322275418F0505A0009FB5D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				B322274718F04F1D0009FB5D /* TopCoderGraphs.1 in CopyFiles */,
+				B322275C18F0505A0009FB5D /* marketing.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B322274118F04F1D0009FB5D /* TopCoderGraphs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TopCoderGraphs; sourceTree = BUILT_PRODUCTS_DIR; };
-		B322274418F04F1D0009FB5D /* grafixmask.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = grafixmask.cpp; sourceTree = "<group>"; };
-		B322274618F04F1D0009FB5D /* TopCoderGraphs.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TopCoderGraphs.1; sourceTree = "<group>"; };
-		B322276218F0505A0009FB5D /* marketing.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = marketing.xcodeproj; path = marketing/marketing.xcodeproj; sourceTree = "<group>"; };
+		B322275618F0505A0009FB5D /* marketing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = marketing; sourceTree = BUILT_PRODUCTS_DIR; };
+		B322275918F0505A0009FB5D /* marketing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = marketing.cpp; sourceTree = "<group>"; };
+		B322275B18F0505A0009FB5D /* marketing.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = marketing.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B322273E18F04F1D0009FB5D /* Frameworks */ = {
+		B322275318F0505A0009FB5D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -52,115 +41,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B322273818F04F1D0009FB5D = {
+		B322274D18F0505A0009FB5D = {
 			isa = PBXGroup;
 			children = (
-				B322276218F0505A0009FB5D /* marketing.xcodeproj */,
-				B322274318F04F1D0009FB5D /* TopCoderGraphs */,
-				B322274218F04F1D0009FB5D /* Products */,
+				B322275818F0505A0009FB5D /* marketing */,
+				B322275718F0505A0009FB5D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B322274218F04F1D0009FB5D /* Products */ = {
+		B322275718F0505A0009FB5D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B322274118F04F1D0009FB5D /* TopCoderGraphs */,
+				B322275618F0505A0009FB5D /* marketing */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B322274318F04F1D0009FB5D /* TopCoderGraphs */ = {
+		B322275818F0505A0009FB5D /* marketing */ = {
 			isa = PBXGroup;
 			children = (
-				B322274418F04F1D0009FB5D /* grafixmask.cpp */,
-				B322274618F04F1D0009FB5D /* TopCoderGraphs.1 */,
+				B322275918F0505A0009FB5D /* marketing.cpp */,
+				B322275B18F0505A0009FB5D /* marketing.1 */,
 			);
-			path = TopCoderGraphs;
-			sourceTree = "<group>";
-		};
-		B322276318F0505A0009FB5D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B322276718F0505B0009FB5D /* marketing */,
-			);
-			name = Products;
+			path = marketing;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B322274018F04F1D0009FB5D /* TopCoderGraphs */ = {
+		B322275518F0505A0009FB5D /* marketing */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B322274A18F04F1D0009FB5D /* Build configuration list for PBXNativeTarget "TopCoderGraphs" */;
+			buildConfigurationList = B322275F18F0505A0009FB5D /* Build configuration list for PBXNativeTarget "marketing" */;
 			buildPhases = (
-				B322273D18F04F1D0009FB5D /* Sources */,
-				B322273E18F04F1D0009FB5D /* Frameworks */,
-				B322273F18F04F1D0009FB5D /* CopyFiles */,
+				B322275218F0505A0009FB5D /* Sources */,
+				B322275318F0505A0009FB5D /* Frameworks */,
+				B322275418F0505A0009FB5D /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TopCoderGraphs;
-			productName = TopCoderGraphs;
-			productReference = B322274118F04F1D0009FB5D /* TopCoderGraphs */;
+			name = marketing;
+			productName = marketing;
+			productReference = B322275618F0505A0009FB5D /* marketing */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B322273918F04F1D0009FB5D /* Project object */ = {
+		B322274E18F0505A0009FB5D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "___KIRANGOUD___";
 			};
-			buildConfigurationList = B322273C18F04F1D0009FB5D /* Build configuration list for PBXProject "TopCoderGraphs" */;
+			buildConfigurationList = B322275118F0505A0009FB5D /* Build configuration list for PBXProject "marketing" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = B322273818F04F1D0009FB5D;
-			productRefGroup = B322274218F04F1D0009FB5D /* Products */;
+			mainGroup = B322274D18F0505A0009FB5D;
+			productRefGroup = B322275718F0505A0009FB5D /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = B322276318F0505A0009FB5D /* Products */;
-					ProjectRef = B322276218F0505A0009FB5D /* marketing.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				B322274018F04F1D0009FB5D /* TopCoderGraphs */,
+				B322275518F0505A0009FB5D /* marketing */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		B322276718F0505B0009FB5D /* marketing */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = marketing;
-			remoteRef = B322276618F0505B0009FB5D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXSourcesBuildPhase section */
-		B322273D18F04F1D0009FB5D /* Sources */ = {
+		B322275218F0505A0009FB5D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B322274518F04F1D0009FB5D /* grafixmask.cpp in Sources */,
+				B322275A18F0505A0009FB5D /* marketing.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		B322274818F04F1D0009FB5D /* Debug */ = {
+		B322275D18F0505A0009FB5D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -198,7 +162,7 @@
 			};
 			name = Debug;
 		};
-		B322274918F04F1D0009FB5D /* Release */ = {
+		B322275E18F0505A0009FB5D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,14 +194,14 @@
 			};
 			name = Release;
 		};
-		B322274B18F04F1D0009FB5D /* Debug */ = {
+		B322276018F0505A0009FB5D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		B322274C18F04F1D0009FB5D /* Release */ = {
+		B322276118F0505A0009FB5D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -247,25 +211,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B322273C18F04F1D0009FB5D /* Build configuration list for PBXProject "TopCoderGraphs" */ = {
+		B322275118F0505A0009FB5D /* Build configuration list for PBXProject "marketing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B322274818F04F1D0009FB5D /* Debug */,
-				B322274918F04F1D0009FB5D /* Release */,
+				B322275D18F0505A0009FB5D /* Debug */,
+				B322275E18F0505A0009FB5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B322274A18F04F1D0009FB5D /* Build configuration list for PBXNativeTarget "TopCoderGraphs" */ = {
+		B322275F18F0505A0009FB5D /* Build configuration list for PBXNativeTarget "marketing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B322274B18F04F1D0009FB5D /* Debug */,
-				B322274C18F04F1D0009FB5D /* Release */,
+				B322276018F0505A0009FB5D /* Debug */,
+				B322276118F0505A0009FB5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B322273918F04F1D0009FB5D /* Project object */;
+	rootObject = B322274E18F0505A0009FB5D /* Project object */;
 }
